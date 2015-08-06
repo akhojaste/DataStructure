@@ -39,11 +39,11 @@ int BstNode::finMin(BstNode* root){
 int BstNode::finMax(BstNode* root){
 
 	int min = 0;
-
+	
 	if (root->right== NULL){ //-- we reached the end of the tree
 		return root->data;
 	}
-
+	
 	else
 	{
 		while (root->right != NULL)
