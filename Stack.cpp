@@ -61,27 +61,27 @@ int main(int argc, char* argv[])
 
   IntStack myStack(5);
 	
-	std::cout << myStack.isempty() << std::endl;
-
-	std::cout << myStack.getSize() << std::endl;
-	std::cout << myStack.isFull() << std::endl;
-
-	myStack.push(1);
-	myStack.push(2);
-	myStack.push(3);
-	myStack.push(4);
-	myStack.push(5);
-
-	std::cout << myStack.getSize() << std::endl;
-
-	std::cout << myStack.isempty() << std::endl;
-
-	for (int i = 0; i < 5; ++i){
-		std::cout << myStack.pop() << std::endl;
-	}
-
-	std::cout << myStack.isempty() << std::endl;
+  std::cout << myStack.isempty() << std::endl;
 	
-	return 0;
+  std::cout << myStack.getSize() << std::endl;
+  std::cout << myStack.isFull() << std::endl;
+	
+  myStack.push(1);
+  myStack.push(2);
+  myStack.push(3);
+  myStack.push(4);
+  myStack.push(5);
+	
+  std::cout << myStack.getSize() << std::endl;
+	
+  std::cout << myStack.isempty() << std::endl;
+	
+  for (int i = 0; i < 5; ++i){
+	std::cout << myStack.pop() << std::endl;
+  }
+	
+  std::cout << myStack.isempty() << std::endl;
+	
+  return 0;
 
 }
